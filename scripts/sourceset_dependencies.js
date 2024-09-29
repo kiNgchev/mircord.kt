@@ -1,0 +1,1 @@
+sourceset_dependencies = '{":mircord-common:dokkaHtmlPartial/main":[]}'

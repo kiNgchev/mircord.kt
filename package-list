@@ -1,0 +1,6 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+module:mircord-common
+net.kingchev.mircord
+net.kingchev.mircord.entity
