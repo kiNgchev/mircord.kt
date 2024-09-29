@@ -1,3 +1,5 @@
+# Developer of Mircord stopped development. This library has no more actuality
+
 # Mircord.kt
 
 ---
