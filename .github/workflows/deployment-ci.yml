@@ -34,7 +34,6 @@ jobs:
       NEXUS_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
       SIGNING_KEY: ${{ secrets.SIGNING_KEY }}
       SIGNING_PASSWORD: ${{ secrets.SIGNING_PASSWORD }}
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -50,3 +49,5 @@ jobs:
         run: ./gradlew --stacktrace --info build
       - name: Publish with Gradle
         run: ./gradlew --no-parallel -x test publish
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
