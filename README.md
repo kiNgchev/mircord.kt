@@ -2,8 +2,12 @@
 
 # Mircord.kt
 
----
 Mircord.kt is a coroutine-based implementation of [Mircord API](https://github.com/wst-007/API-Mircord), written 100% in Kotlin
+
+---
+### [Docs](https://kingchev.github.io/mircord.kt/)
+
+---
 ## Platforms support
 | Module                   | JVM | JS  | Native |
 |--------------------------|-----|-----|--------|
